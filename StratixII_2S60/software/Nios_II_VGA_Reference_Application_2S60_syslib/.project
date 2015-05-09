@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Nios_II_VGA_Reference_Application_2S60_syslib</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.altera.ide.core.alterabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>com.altera.ide.core.AlteraNios2Nature</nature>
+		<nature>com.altera.ide.core.AlteraSDKNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Device Drivers [C__Embedded_Apps_Component_Library_nates_components]</name>
+			<type>2</type>
+			<location>C:/_Embedded_Apps/Component_Library/nates_components</location>
+		</link>
+		<link>
+			<name>Device Drivers [Nios II]</name>
+			<type>2</type>
+			<location>C:/altera/61/nios2eds/components</location>
+		</link>
+		<link>
+			<name>Device Drivers [C__Embedded_Apps_Component_Library_other_components]</name>
+			<type>2</type>
+			<location>C:/_Embedded_Apps/Component_Library/other_components</location>
+		</link>
+		<link>
+			<name>Device Drivers [C_altera_61_ip_ddr_ddr2_sdram_lib_sopc_builder]</name>
+			<type>2</type>
+			<location>C:/altera/61/ip/ddr_ddr2_sdram/lib/sopc_builder</location>
+		</link>
+		<link>
+			<name>Device Drivers [Sopc Builder]</name>
+			<type>2</type>
+			<location>C:/altera/61/quartus/sopc_builder/components</location>
+		</link>
+		<link>
+			<name>Newlib C Library</name>
+			<type>2</type>
+			<location>C:/altera/61/nios2eds/bin/nios2-gnutools/src/newlib/newlib</location>
+		</link>
+	</linkedResources>
+</projectDescription>

@@ -1,0 +1,9 @@
+set_global_assignment -name SOURCE_FILE [file join $::quartus(qip_path) cpu.ocp]
+set_global_assignment -name TCL_FILE [file join $::quartus(ip_rootpath) University_Program/altera_up_avalon_clocks/altera_up_avalon_clocks_hw.tcl]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) sram.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) clocks.v]
+set_global_assignment -name SDC_FILE [file join $::quartus(qip_path) cpu.sdc]
+set_global_assignment -name TCL_FILE [file join $::quartus(ip_rootpath) University_Program/Memory/altera_up_avalon_sram/altera_up_avalon_sram_hw.tcl]
+set_global_assignment -name SDC_FILE [file join $::quartus(ip_rootpath) altera/sopc_builder_ip/altera_avalon_clock_adapter/altera_avalon_clock_adapter.sdc]
+set_global_assignment -name SOPC_BUILDER_SIGNATURE_ID 001EC93642250000012DE89771E9 
+ 

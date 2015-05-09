@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="vga_ref">
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_ref|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|lpm_decode:wdecoder" CBX_FILE_NAME="decode_rqf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_ref|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|lpm_counter:status_read_pointer_counter" CBX_FILE_NAME="cntr_gui.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_ref|vga_ref_2C35:inst|vga_controller:the_vga_controller|lpm_counter:vga_column_counter" CBX_FILE_NAME="cntr_9ti.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_ref|vga_ref_2C35:inst|vga_controller:the_vga_controller|lpm_counter:vga_config_counter" CBX_FILE_NAME="cntr_10h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_ref|vga_ref_2C35:inst|cpu:the_cpu|cpu_dc_data_module:cpu_dc_data|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_a422.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_ref|vga_ref_2C35:inst|cpu:the_cpu|cpu_nios2_oci:the_cpu_nios2_oci|cpu_nios2_oci_im:the_cpu_nios2_oci_im|cpu_traceram_lpm_dram_bdp_component_module:cpu_traceram_lpm_dram_bdp_component|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_e502.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_ref|vga_ref_2C35:inst|cpu:the_cpu|cpu_register_bank_a_module:cpu_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_p2f1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_ref|vga_ref_2C35:inst|jtag_uart:the_jtag_uart|jtag_uart_scfifo_w:the_jtag_uart_scfifo_w|scfifo:wfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_ref|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|altsyncram:\stp_non_zero_ram_gen:stp_buffer_ram" CBX_FILE_NAME="altsyncram_2304.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_ref|vga_ref_2C35:inst|jtag_uart:the_jtag_uart|jtag_uart_scfifo_r:the_jtag_uart_scfifo_r|scfifo:rfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_ref|vga_ref_2C35:inst|vga_controller:the_vga_controller|lpm_counter:vga_row_counter" CBX_FILE_NAME="cntr_cti.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_ref|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|lpm_mux:mux" CBX_FILE_NAME="mux_aoc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_ref|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|lpm_counter:\adv_point_3_and_more:advance_pointer_counter" CBX_FILE_NAME="cntr_0ci.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_ref|vga_ref_2C35:inst|cpu:the_cpu|cpu_ic_data_module:cpu_ic_data|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_qed1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_ref|vga_ref_2C35:inst|cpu:the_cpu|cpu_ic_tag_module:cpu_ic_tag|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_u0g1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_ref|vga_ref_2C35:inst|cpu:the_cpu|cpu_mult_cell:the_cpu_mult_cell|altmult_add:the_altmult_add_part_2" CBX_FILE_NAME="mult_add_6cr2.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_ref|vga_ref_2C35:inst|cpu:the_cpu|cpu_register_bank_b_module:cpu_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_q2f1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_ref|vga_ref_2C35:inst|vga_controller:the_vga_controller|dcfifo:the_dcfifo" CBX_FILE_NAME="dcfifo_hg31.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_ref|vga_ref_2C35:inst|vga_controller:the_vga_controller|lpm_counter:dma_address_counter" CBX_FILE_NAME="cntr_u0i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_ref|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|lpm_counter:read_pointer_counter" CBX_FILE_NAME="cntr_02j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_ref|vga_ref_2C35:inst|cpu:the_cpu|cpu_bht_module:cpu_bht|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_pkf1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_ref|vga_ref_2C35:inst|cpu:the_cpu|cpu_dc_tag_module:cpu_dc_tag|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_ib22.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_ref|vga_ref_2C35:inst|cpu:the_cpu|cpu_nios2_oci:the_cpu_nios2_oci|cpu_nios2_ocimem:the_cpu_nios2_ocimem|cpu_ociram_lpm_dram_bdp_component_module:cpu_ociram_lpm_dram_bdp_component|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_t072.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_ref|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|lpm_counter:status_advance_pointer_counter" CBX_FILE_NAME="cntr_sbi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_ref|vga_ref_2C35:inst|cpu:the_cpu|cpu_mult_cell:the_cpu_mult_cell|altmult_add:the_altmult_add_part_1" CBX_FILE_NAME="mult_add_4cr2.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

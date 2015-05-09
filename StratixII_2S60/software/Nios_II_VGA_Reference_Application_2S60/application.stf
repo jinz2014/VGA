@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stf>
+	<project sdk="Nios_II_VGA_Reference_Application_2S60_syslib" target="Nios II Application">
+	</project>
+</stf>
